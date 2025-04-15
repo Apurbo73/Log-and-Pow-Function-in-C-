@@ -17,6 +17,20 @@ int main() {
 // 0.01
 
   
+    cout << log10(120.0f);
+    cout << log10(10.0f);
+    cout << log10(3.1623);
+    cout << log10(1.0);
+    cout << log10(0.0f);
+    cout << log10(-1.0f);
+
+    // output
+    // 2.07918
+    // 1
+    // 0.500003
+    // 0
+    // -inf
+    // nan
   
   return 0;
 }
